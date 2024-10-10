@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CA22B7F2CB6D3A1003DB6B3 /* QRView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CA22B7E2CB6D3A1003DB6B3 /* QRView.swift */; };
 		F9B713852CAC8CD8007C719D /* lab02App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B713842CAC8CD8007C719D /* lab02App.swift */; };
 		F9B713872CAC8CD8007C719D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9B713862CAC8CD8007C719D /* ContentView.swift */; };
 		F9B713892CAC8CDC007C719D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9B713882CAC8CDC007C719D /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8CA22B7E2CB6D3A1003DB6B3 /* QRView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRView.swift; sourceTree = "<group>"; };
 		F9B713812CAC8CD8007C719D /* lab02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lab02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B713842CAC8CD8007C719D /* lab02App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lab02App.swift; sourceTree = "<group>"; };
 		F9B713862CAC8CD8007C719D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				F9B713B32CAC9037007C719D /* CreateAccountView.swift */,
 				F9B713B12CAC9009007C719D /* HomeView.swift */,
 				F9B713AF2CAC8DC2007C719D /* LoginView.swift */,
+				8CA22B7E2CB6D3A1003DB6B3 /* QRView.swift */,
 			);
 			path = Vistas;
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				F9B713B02CAC8DC2007C719D /* LoginView.swift in Sources */,
 				F9B713B22CAC9009007C719D /* HomeView.swift in Sources */,
 				F9C1CE3B2CAF167900653ABD /* UserModel.xcdatamodeld in Sources */,
+				8CA22B7F2CB6D3A1003DB6B3 /* QRView.swift in Sources */,
 				F9B713872CAC8CD8007C719D /* ContentView.swift in Sources */,
 				F9B713852CAC8CD8007C719D /* lab02App.swift in Sources */,
 				F9C1CE3D2CAF17E200653ABD /* CoreDataManager.swift in Sources */,

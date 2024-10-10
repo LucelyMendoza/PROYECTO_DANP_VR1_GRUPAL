@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 struct ContentView: View {
     @Binding var isLoggedin: Bool
 
@@ -32,7 +31,13 @@ struct ContentView: View {
                 PinturasView()
             }
             .tabItem {
-                Label("Pinturas", systemImage: "paintpalette.fill")
+                Label("Busqueda", systemImage: "magnifyingglass")
+            }
+            NavigationView {
+                QRView()
+            }
+            .tabItem {
+                Label("QR", systemImage: "qrcode")
             }
             NavigationView {
                 MapaView()
